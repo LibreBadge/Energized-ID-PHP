@@ -1,2 +1,2 @@
-# php-screwery
-Experimenting with using php instead of dart
+# Why did we switch to PHP?
+PHP seemed to fit this project better, the larger community also allows us to get more help
