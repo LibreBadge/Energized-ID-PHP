@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-<script src="bootstrap.bundle.min.js"></script>
+<?php include("head.php"); ?>
 </head>
 <body>
 <?php include("navbar.html"); ?>
@@ -10,11 +9,5 @@
 <?php
 echo "Hello World!, Hello PHP!";
 ?> 
-<?php
- 
- echo phpinfo();
-  
- ?>
-
 </body>
 </html>
