@@ -3,7 +3,7 @@
 <head>
 <link rel="stylesheet" href="bootstrap.min.css">
 <script src="bootstrap.bundle.min.js">
-<title><title>
+<title>Test<title>
 </head>
 <body>
 <?php include("includes/navbar.php"); ?>
