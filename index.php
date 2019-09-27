@@ -10,6 +10,11 @@
 <?php
 echo "Hello World!, Hello PHP!";
 ?> 
+<?php
+ 
+ echo phpinfo();
+  
+ ?>
 
 </body>
 </html>
