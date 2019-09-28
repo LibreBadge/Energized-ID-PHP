@@ -1,5 +1,5 @@
 {
     "require": {
-      "laravel/installer" " "^6.0.0"
+      "laravel/installer" " "6.*.*"
     }
   }
