@@ -30,6 +30,9 @@
       </li>
     </ul>
     <li class="form-inline my-2 my-lg-0">
+        <a class="nav-link text-light" href="#">Username placeholder</a>
+      </li>
+    <li class="form-inline my-2 my-lg-0">
       <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Sign Out</button>
     </li>
   </div>
