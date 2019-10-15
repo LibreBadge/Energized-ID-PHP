@@ -1,7 +1,7 @@
 {
  "extra":{   
   "require": {
-      "laravel/installer" " "6.*.*"
+      "laravel/installer" " "6.*.*",
     }
   }
   }
