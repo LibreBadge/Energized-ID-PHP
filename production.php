@@ -8,8 +8,12 @@
   $ID = "1659616";
   $NAME = "Cookie Monster";
 ?>
+<div class="row">
 <?php include("navbar.php"); ?>
+</div>
+<div class="row">
 <?php include("card.php"); ?> 
+</div>
 
 </body>
 </html>
