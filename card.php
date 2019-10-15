@@ -12,7 +12,7 @@
             <img src="card/qr.png" id="qr" />
             <div id="title">Chief Cookie Eater</div>
             <div id="name"><?php echo $NAME;?></div>
-            <div id="id">ID#: <?php echo $ID;?></div>
+            <div id="id">Employee ID#: <?php echo $ID;?></div>
             <div id="security-level">Security Level 5</div>
             <div id="expires">Expires: 08/2019</div>
         </div>
