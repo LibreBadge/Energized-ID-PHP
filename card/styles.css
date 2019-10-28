@@ -3,24 +3,12 @@ body {
   margin: 0;
 }
 
-@media only screen {
-  body {
-    background-color: #f0f0f0;
-  }
-}
-
 .page {
   width: 2.125in;
   height: 3.375in;
   display: -ms-grid;
   display: grid;
   background-color: white;
-}
-
-@media only screen {
-  .page {
-    border-radius: 9px;
-  }
 }
 
 img {
@@ -36,15 +24,7 @@ div {
       grid-template-rows: 0.375in 0.375in 0.0625in 0.5625in 0.75in 0.0625in 0.25in 0.21875in 0.125in 0.15625in 0.11111in 0.0625in 0.0625in;
   -ms-grid-columns: 1.0625in 1.0625in;
       grid-template-columns: 1.0625in 1.0625in;
-      grid-template-areas: "u028d7162 ua06dd6bd" "header header" "u9d2407a9 ua35f4a92" "photo logo" "photo qr" "u3dc90aa3 u8d1a4156" "title title" "name name" "id id" "security-level security-level" "moto moto" "u25e272ff ua7c3489b" "expires expires";
-}
-
-@media only screen {
-  #one {
-    position: fixed;
-    left: 0.5in;
-    top: 0.5in;
-  }
+      grid-template-areas: "u0fcc7afb u0dd74d68" "header header" "uaed869ca u4907971f" "photo logo" "photo qr" "ufd7ba7e1 u92b41ced" "title title" "name name" "id id" "security-level security-level" "moto moto" "ub7481f8c uf24df340" "expires expires";
 }
 
 #header {
@@ -53,7 +33,7 @@ div {
   -ms-grid-column-span: 2;
   grid-area: header;
   font-size: 0.21875in;
-  background-color: #007bff;
+  background-color: #004ffa;
   color: white;
   font-family: 'Open Sans', sans-serif;
   padding: 5px;
@@ -130,15 +110,7 @@ div {
       grid-template-rows: 0.375in 1in 1.25in 0.75in;
   -ms-grid-columns: 2.125in;
       grid-template-columns: 2.125in;
-      grid-template-areas: "ufd74a587" "logo2" "addrz" "barcode";
-}
-
-@media only screen {
-  #two {
-    position: fixed;
-    left: 3.125in;
-    top: 0.5in;
-  }
+      grid-template-areas: "udad4e896" "logo2" "addrz" "barcode";
 }
 
 #logo2 {
