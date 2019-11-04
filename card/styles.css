@@ -36,7 +36,7 @@ div {
       grid-template-rows: 0.375in 0.375in 0.0625in 0.5625in 0.75in 0.0625in 0.25in 0.21875in 0.125in 0.15625in 0.11111in 0.0625in 0.0625in;
   -ms-grid-columns: 1.0625in 1.0625in;
       grid-template-columns: 1.0625in 1.0625in;
-      grid-template-areas: "u028d7162 ua06dd6bd" "header header" "u9d2407a9 ua35f4a92" "photo logo" "photo qr" "u3dc90aa3 u8d1a4156" "title title" "name name" "id id" "security-level security-level" "moto moto" "u25e272ff ua7c3489b" "expires expires";
+      grid-template-areas: "ua0bdfc67 uc69ebdf9" "header header" "u78fa6e74 uec1851d6" "photo logo" "photo qr" "ue22a1cdc uc16ad910" "title title" "name name" "id id" "security-level security-level" "moto moto" "u63cdc166 ubf4cecff" "expires expires";
 }
 
 @media only screen {
@@ -53,7 +53,7 @@ div {
   -ms-grid-column-span: 2;
   grid-area: header;
   font-size: 0.21875in;
-  background-color: #007bff;
+  background-color: #8d5b2e;
   color: white;
   font-family: 'Open Sans', sans-serif;
   padding: 5px;
@@ -130,7 +130,7 @@ div {
       grid-template-rows: 0.375in 1in 1.25in 0.75in;
   -ms-grid-columns: 2.125in;
       grid-template-columns: 2.125in;
-      grid-template-areas: "ufd74a587" "logo2" "addrz" "barcode";
+      grid-template-areas: "u74071164" "logo2" "addrz" "barcode";
 }
 
 @media only screen {
