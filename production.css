@@ -7,4 +7,18 @@ body {
     border-radius: 9px;
   }
 }
+
+@media only screen {
+  #one {
+    position: fixed;
+    left: 0.5in;
+  }
+}
+
+@media only screen {
+  #two {
+    position: fixed;
+    left: 3.125in;
+  }
+}
 /*# sourceMappingURL=production.css.map */
