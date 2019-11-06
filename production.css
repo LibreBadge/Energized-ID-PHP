@@ -1,0 +1,10 @@
+body {
+  background-color: #f0f0f0;
+}
+
+@media only screen {
+  .page {
+    border-radius: 9px;
+  }
+}
+/*# sourceMappingURL=production.css.map */

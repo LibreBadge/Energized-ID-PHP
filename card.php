@@ -3,6 +3,7 @@
     <head>
         <link href="card/styles.css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans" rel="stylesheet">
+        <link rel='stylesheet' media='screen' href='production.css' />
     </head>
     <body>
         <div class="page" id="one">

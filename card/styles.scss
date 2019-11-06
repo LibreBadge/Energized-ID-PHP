@@ -9,10 +9,6 @@
 body {
     font-family: 'Noto Sans', sans-serif;
     margin: 0;
-    
-    @media only screen {
-        background-color: #f0f0f0;
-    }
 }
 
 $id-width: 2.125in;
@@ -24,9 +20,7 @@ $id-height: 3.375in;
     display: grid;
     background-color: white;
     
-    @media only screen {
-        border-radius: 9px;
-    }
+
 }
 
 img {
@@ -74,11 +68,7 @@ $qr-height: (2 + 1/8 - 1 - 3/8) * 1in;
         "expires expires"
         ;
         
-    @media only screen {
-        position: fixed;
-        left: $fixed-dist;
-        top: $fixed-dist;
-    }
+
 }
 
 @mixin headerColor {
@@ -156,11 +146,7 @@ $qr-height: (2 + 1/8 - 1 - 3/8) * 1in;
         "barcode"
         ;
     
-    @media only screen {
-        position: fixed;
-        left: $fixed-dist * 2 + $id-width;
-        top: $fixed-dist;
-    }
+
 }
 
 #logo2 {
