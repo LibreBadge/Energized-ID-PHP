@@ -1,3 +1,6 @@
+$fixed-dist: 1in/2;
+$id-width: 2.125in;
+$id-height: 3.375in;
 body{
     background-color: #f0f0f0;
 }
@@ -6,3 +9,16 @@ body{
         border-radius: 9px;
     }
 }
+ #one{
+    @media only screen {
+        position: fixed;
+        left: $fixed-dist;
+    }
+}
+#two{
+    @media only screen {
+        position: fixed;
+        left: $fixed-dist * 2 + $id-width;
+    }
+}
+
