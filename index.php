@@ -10,10 +10,10 @@ switch ($request) {
         require __DIR__ . '/views/home.php';
         break;
     case '/home' :
-        require __DIR__ . 'views/home.php';
+        require __DIR__ . '/views/home.php';
         break;
-    case '/about' :
-        require __DIR__ . '/views/about.php';
+    case '/production' :
+        require __DIR__ . '/views/production.php';
         break;
     default:
         http_response_code(404);
