@@ -1,5 +1,5 @@
-<link rel='stylesheet' media='print' href='print.css' />
-<link rel='stylesheet' media='screen' href='production.css' />
+<link rel='stylesheet' media='print' href='resources/productionCSS/print.css' />
+<link rel='stylesheet' media='screen' href='resources/productionCSS/preview.css' />
 <!DOCTYPE html>
 <html>
 <head>
