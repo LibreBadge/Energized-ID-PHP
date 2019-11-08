@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,8 +13,15 @@
 <?php include("navbar.php"); ?>
 <br>
 </div>
-<div class="col">
-<?php include("card.php"); ?> 
+
+<div class="container">
+  <div class="row">
+    <div class="col-5">
+      <?php include("card.php"); ?> 
+  </div>
+  <div class="col-4">
+    <?php include("form.php"); ?>
+  <div>
 </div>
 </body>
 </html>
