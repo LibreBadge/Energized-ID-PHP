@@ -5,20 +5,15 @@ body{
     background-color: #f0f0f0;
 }
 .page{
-    @media only screen {
         border-radius: 9px;
-    }
 }
  #one{
-    @media only screen {
         position: fixed;
         left: $fixed-dist;
-    }
 }
 #two{
-    @media only screen {
-        position: fixed;
-        left: $fixed-dist * 2 + $id-width;
-    }
+    position: fixed;
+    left: $fixed-dist * 2 + $id-width;
+    
 }
 

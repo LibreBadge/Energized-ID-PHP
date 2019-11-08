@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,IAAI,CAAA;EACA,gBAAgB,EAAE,OAAc;CACnC",
+    "mappings": "",
     "sources": [
         "error.scss"
     ],
