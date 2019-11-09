@@ -19,7 +19,7 @@
     <div class="col-5">
       <?php include("card.php"); ?> 
   </div>
-  <div class="col-4">
+  <div class="col-4 noPrint">
     <?php include("form.php"); ?>
   <div>
 </div>
