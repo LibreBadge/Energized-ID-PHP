@@ -1,5 +1,5 @@
 
-<form class="" autocomplete="off">
+<form action="production" method="post" autocomplete="off">
   <div class="form-group">
     <label for="firstName">First Name</label>
     <input type="text" class="form-control" id="firstName" placeholder="First Name">
@@ -16,5 +16,6 @@
         <option>Level 2</option>
         <option>Level 3</option>
       </select>
+      <button class="btn btn-primary" type="submit">Search</button>
   </div>
 </form>
