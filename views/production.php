@@ -9,6 +9,8 @@
   $ID = "1659616";
   $NAME = "Cookie Monster";
 ?>
+<?echo $_GET['lastName'];?>
+
 <div class='noPrint'>
 <?php include("navbar.php"); ?>
 <br>
