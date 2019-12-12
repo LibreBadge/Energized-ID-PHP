@@ -9,8 +9,8 @@
   $ID = "1659616";
   $NAME = "Cookie Monster";
 ?>
-<?echo $_POST['lastName'];?>
-111
+<h1><?echo $_POST['lastName'];?></h1>
+112
 <div class='noPrint'>
 <?php include("navbar.php"); ?>
 <br>
