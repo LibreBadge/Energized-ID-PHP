@@ -9,7 +9,7 @@
   $ID = "1659616";
   $NAME = "Cookie Monster";
 ?>
-<?echo $_GET['lastName'];?>
+<?echo $_POST['lastName'];?>
 111
 <div class='noPrint'>
 <?php include("navbar.php"); ?>
