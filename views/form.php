@@ -1,5 +1,5 @@
 
-<form action="card" method="post" autocomplete="off">
+<form action="card.php" method="post" autocomplete="off">
   <div class="form-group">
     <label for="firstName">First Name</label>
     <input type="text" class="form-control" id="firstName" placeholder="First Name">
