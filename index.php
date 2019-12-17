@@ -4,11 +4,14 @@ $request = $_SERVER['REQUEST_URI'];
 
 switch ($request) {
     case '/' :
+        require __DIR__ . '/views/home.php';
+        break;
     case '' :
+        require __DIR__ . '/views/home.php';
+        break;
     case '/home' :
         require __DIR__ . '/views/home.php';
         break;
-    case '/production.php'
     case '/production' :
         require __DIR__ . '/views/production.php';
         break;
