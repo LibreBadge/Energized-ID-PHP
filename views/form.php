@@ -6,7 +6,7 @@
   </div>
   <div class="form-group">
     <label for="lastName">Last Name</label>
-    <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+    <input type="text" class="form-control" name="lastName" id="lastName" placeholder="Last Name">
   </div>
   <div class="form-group">
     <label for="securityLevel">Security Level</label>
