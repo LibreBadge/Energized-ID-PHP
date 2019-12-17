@@ -7,10 +7,10 @@
 <body>
 <?php
   $ID = "1659616";
-  $NAME = "Cookie Monster";
+  $NAME = <?echo $ POST['firstName'];?> + <?echo $_POST['lastName'];?>;
 ?>
-<?echo $_POST['lastName'];?>
-115
+<?echo $NAME;?>
+116
 <div class='noPrint'>
 <?php include("navbar.php"); ?>
 <br>
