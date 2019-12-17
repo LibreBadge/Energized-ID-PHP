@@ -2,7 +2,7 @@
 <form action="production" method="post" autocomplete="off">
   <div class="form-group">
     <label for="firstName">First Name</label>
-    <input type="text" class="form-control" id="firstName" placeholder="First Name">
+    <input type="text" class="form-control" name="firstName" id="firstName" placeholder="First Name">
   </div>
   <div class="form-group">
     <label for="lastName">Last Name</label>
