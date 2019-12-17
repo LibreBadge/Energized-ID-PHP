@@ -7,7 +7,7 @@
 <body>
 <?php
   $ID = "1659616";
-  $NAME = <?echo $_POST['lastName'+'firstName'];?>;
+  $NAME = $_POST['lastName'] + $_POST['firstName']
 ?>
 <?echo $NAME;?>
 116
