@@ -9,8 +9,6 @@
   $ID = "1659616";
   $NAME = $_POST['firstName'].' '. $_POST['lastName']
 ?>
-<?echo $NAME;?>
-116
 <div class='noPrint'>
 <?php include("navbar.php"); ?>
 <br>
