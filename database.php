@@ -1,4 +1,5 @@
 <?php
+//this is a test database set up for testing purposes on energized-id-dev.memtech3.com . DO NOT USE THIS IN A PRODUCTION ENVIRONMENT
 $servername = "localhost";
 $username = "u952595018_ID";
 $password = "admin1";
