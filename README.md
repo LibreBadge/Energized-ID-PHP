@@ -1,9 +1,9 @@
+# THIS SOLUTION IS NOT PRODUCTION READY
+## This solution is still being developed to add user swappable templates, database queries, authentication and more
 # Open source web based ID badge software
 Server Requirments:<br>
 PHP<br>
-Composer<br>
 MySQL or MariaDB<br>
-The rest is installed through composer
 # Why did we switch to PHP?
 PHP seemed to fit this project better, the larger community also allows us to get more help
 # Live demos
