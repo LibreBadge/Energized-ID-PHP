@@ -7,8 +7,8 @@
 <body>
 <?php
   $ID = "1659616";
-  $NAME = $_POST['firstName'].' '. $_POST['lastName']
-  $LEVEL = $_POST['securityLevel']
+  $NAME = $_POST['firstName'].' '. $_POST['lastName'];
+  $LEVEL = $_POST['securityLevel'];
 ?>
 <div class='noPrint'>
 <?php include("navbar.php"); ?>
