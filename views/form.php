@@ -10,7 +10,7 @@
   </div>
   <div class="form-group">
     <label for="securityLevel">Security Level</label>
-    <select id="securityLevel" class="form-control">
+    <select id="securityLevel" name="securityLevel" class="form-control">
         <option selected>Level 0</option>
         <option>Level 1</option>
         <option>Level 2</option>
