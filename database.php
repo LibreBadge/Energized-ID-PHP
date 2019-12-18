@@ -12,7 +12,7 @@ try {
     echo "Connected successfully";
     $sql = "SELECT * FROM `Cardholders`";
     $result = $conn->query($sql);
-    if ($result->num_rows > 0) {
+    if (true/*$result->num_rows > 0*/) {
         // output data of each row
         while($row = $result->fetch_assoc()) {
             echo "id: " . $row["id"]. " - Name: " . $row["firstName"]. " " . $row["lastName"]. " " . $row["securityLevel"]. "<br>";
