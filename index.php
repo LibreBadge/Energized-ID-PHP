@@ -18,6 +18,9 @@ switch ($request) {
     case '/database':
         require __DIR__ . '/database.php';
         break;
+    case '/database2':
+        require __DIR__ . '/database2.php';
+        break;
     default:
         http_response_code(404);
         require __DIR__ . '/views/404.php';
