@@ -1,13 +1,28 @@
-<!DOCTYPE html>
-<html>
-<head>
-<?php include("head.php"); ?>
-</head>
-<body>
-<?php include("navbar.php"); ?>
-<h1>My first PHP page</h1>
 <?php
-echo "Hello World!, Hello PHP!";
-?> 
-</body>
-</html>
+
+$request = $_SERVER['REQUEST_URI'];
+
+switch ($request) {
+    case '/' :
+        require __DIR__ . '/views/home.php';
+        break;
+    case '' :
+        require __DIR__ . '/views/home.php';
+        break;
+    case '/home' :
+        require __DIR__ . '/views/home.php';
+        break;
+    case '/production' :
+        require __DIR__ . '/views/production.php';
+        break;
+    case '/database':
+        require __DIR__ . '/database.php';
+        break;
+    case '/database2':
+        require __DIR__ . '/database2.php';
+        break;
+    default:
+        http_response_code(404);
+        require __DIR__ . '/views/404.php';
+        break;
+}

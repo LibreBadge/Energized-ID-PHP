@@ -24,7 +24,7 @@ div {
       grid-template-rows: 0.375in 0.375in 0.0625in 0.5625in 0.75in 0.0625in 0.25in 0.21875in 0.125in 0.15625in 0.11111in 0.0625in 0.0625in;
   -ms-grid-columns: 1.0625in 1.0625in;
       grid-template-columns: 1.0625in 1.0625in;
-      grid-template-areas: "u8aef3d45 u336622a7" "header header" "u7eee7be8 u16acb771" "photo logo" "photo qr" "ud27ed4bf ud1e021ef" "title title" "name name" "id id" "security-level security-level" "moto moto" "uf8e86d00 u0b4159c1" "expires expires";
+      grid-template-areas: "ua89dd9d0 u47de8fd6" "header header" "ua0b10fdd uee9527d4" "photo logo" "photo qr" "u7d71a95f u1686354e" "title title" "name name" "id id" "security-level security-level" "moto moto" "u1145acad ud68af8b5" "expires expires";
 }
 
 #header {
@@ -110,7 +110,7 @@ div {
       grid-template-rows: 0.375in 1in 1.25in 0.75in;
   -ms-grid-columns: 2.125in;
       grid-template-columns: 2.125in;
-      grid-template-areas: "u241526c9" "logo2" "addrz" "barcode";
+      grid-template-areas: "ud2f43671" "logo2" "addrz" "barcode";
 }
 
 #logo2 {

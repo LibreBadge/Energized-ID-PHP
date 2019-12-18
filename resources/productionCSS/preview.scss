@@ -4,21 +4,18 @@ $id-height: 3.375in;
 body{
     background-color: #f0f0f0;
 }
+//rounds cornets of badge
 .page{
-    @media only screen {
         border-radius: 9px;
-    }
 }
+//sets position of badge
  #one{
-    @media only screen {
         position: fixed;
         left: $fixed-dist;
-    }
 }
 #two{
-    @media only screen {
-        position: fixed;
-        left: $fixed-dist * 2 + $id-width;
-    }
+    position: fixed;
+    left: $fixed-dist * 2 + $id-width;
+    
 }
 

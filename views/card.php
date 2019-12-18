@@ -3,7 +3,7 @@
     <head>
         <link href="card/styles.css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans" rel="stylesheet">
-        <link rel='stylesheet' media='screen' href='production.css' />
+        <link rel='stylesheet' media='screen' href='resources/productionCSS/preview.css' />
     </head>
     <body>
         <div class="page" id="one">
@@ -12,9 +12,9 @@
             <img src="card/logo.png" id="logo" />
             <img src="card/qr.png" id="qr" />
             <div id="title">Chief Cookie Eater</div>
-            <div id="name"><?php echo $NAME;?></div>
+            <div id="name"><?php echo $NAME; ?></div>
             <div id="id">Employee ID#: <?php echo $ID;?></div>
-            <div id="security-level">Security Level 5</div>
+            <div id="security-level">Security Level <?php echo $LEVEL;?></div>
             <div id="expires">Expires: 08/2019</div>
         </div>
         <div class="page" id="two">
