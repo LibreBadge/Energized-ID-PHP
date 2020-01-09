@@ -11,9 +11,10 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
+    echo "Connection failed"
 }
 
-$sql = "SELECT * FROM $table WHERE `lastName` = 'Doe'";
+$sql = "SELECT * FROM '$table' WHERE `lastName` = 'Doe'";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
