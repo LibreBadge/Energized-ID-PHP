@@ -10,7 +10,7 @@ try {
     // set the PDO error mode to exception
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     echo "Connected successfully";
-    $sql = "SELECT * FROM `Cardholders` WHERE lastName = Doe ";
+    $sql = "SELECT * FROM `Cardholders` WHERE lastName = "Doe" ";
     $result = $conn->query($sql);
     if ($result->num_rows > 0) {
         // output data of each row
